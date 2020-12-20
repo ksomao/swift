@@ -1,0 +1,27 @@
+.home {
+	margin: 0 auto ;
+	max-width: 480px;
+	padding-top: 32px;
+}
+
+.home-wrapper{
+	background: white;
+	padding: 20px;
+}
+.article{
+	margin-bottom: 16px;
+}
+
+.article-title {
+	font-size: 24px;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+
+.article-text {
+	font-size: 16px;
+	line-height: 1.4;
+	display: block;
+	width: 85%;
+	margin-top: 8px;
+}

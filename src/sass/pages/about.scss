@@ -1,0 +1,43 @@
+.about {
+	margin: 0 auto;
+	max-width: 480px;
+}
+
+.about-wrapper{
+	background: white;
+	padding: 20px;
+}
+
+
+.about-img-wrapper{
+	width: 100%;
+	height: 250px;
+	margin-top: 32px;
+	overflow: hidden;
+}
+
+.about-img{
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.about-title {
+	font-size: 24px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.about-main-text {
+	font-size: 14px;
+	font-family: sans-serif;
+	line-height: 1.45;
+	display: block;
+	width: 85%;
+	margin-top: 32px;
+	margin-left: 25px;
+	p {
+		color: #303030;
+		margin-bottom: 32px;
+	}
+}

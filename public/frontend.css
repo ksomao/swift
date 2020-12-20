@@ -1,0 +1,165 @@
+/*
+Theme Name: Landing
+Theme URI: http://landing.local/
+Author: Ksomao
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+footer, header, nav, section, main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+body {
+  font-family: 'Eczar', serif;
+  background: #9accff; }
+
+.home {
+  margin: 0 auto;
+  max-width: 480px;
+  padding-top: 32px; }
+
+.home-wrapper {
+  background: white;
+  padding: 20px; }
+
+.article {
+  margin-bottom: 16px; }
+
+.article-title {
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: capitalize; }
+
+.article-text {
+  font-size: 16px;
+  line-height: 1.4;
+  display: block;
+  width: 85%;
+  margin-top: 8px; }
+
+.example {
+  margin: 0 auto;
+  max-width: 480px; }
+
+.article {
+  margin-bottom: 16px; }
+
+.article-title {
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: capitalize; }
+
+.article-text {
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 1.4;
+  display: block;
+  width: 85%;
+  margin-top: 8px; }
+
+.about {
+  margin: 0 auto;
+  max-width: 480px; }
+
+.about-wrapper {
+  background: white;
+  padding: 20px; }
+
+.about-img-wrapper {
+  width: 100%;
+  height: 250px;
+  margin-top: 32px;
+  overflow: hidden; }
+
+.about-img {
+  width: 100%;
+  object-fit: cover; }
+
+.about-title {
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase; }
+
+.about-main-text {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 1.45;
+  display: block;
+  width: 85%;
+  margin-top: 32px;
+  margin-left: 25px; }
+  .about-main-text p {
+    color: #303030;
+    margin-bottom: 32px; }
+
+.custom-button {
+  background: cornflowerblue;
+  height: 40px;
+  color: orangered; }
+
+.custom-button-2 {
+  background: green;
+  color: white;
+  height: 40px; }
+
+.nav-main {
+  display: flex;
+  margin: 48px auto 56px;
+  width: 200px; }
+
+.nav-main-link {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-left: 12px;
+  opacity: 80%; }
+  .nav-main-link:visited {
+    color: black; }
+
+
+/*# sourceMappingURL=frontend.css.map*/

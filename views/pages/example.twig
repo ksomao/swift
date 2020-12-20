@@ -1,0 +1,14 @@
+{% extends getf('base') %}
+{% import getf('button') as button %}
+{% block body %}
+    <div class="example">
+      {% for post in posts  %}
+        <article class="article post-type-{{ post.post_type }} " id="post-{{ post.ID }}">
+            <section class="article-content">
+                <h1 class="article-title">{{ post.title }}</h1>
+                <div class="article-text">{{ post.content }}</div>
+            </section>
+        </article>
+        {% endfor %}
+    </div>
+{% endblock %}
