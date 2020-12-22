@@ -54,7 +54,7 @@ input {
 
 body {
   font-family: 'Eczar', serif;
-  background: #9accff; }
+  background: black; }
 
 .home {
   margin: 0 auto;
@@ -135,6 +135,20 @@ body {
     color: #303030;
     margin-bottom: 32px; }
 
+.loader {
+  position: fixed;
+  width: 100vw;
+  height: 200vh;
+  pointer-events: none;
+  background-color: #ff5202;
+  z-index: 50;
+  visibility: hidden;
+  opacity: 1; }
+
+.is-transitioning {
+  pointer-events: none;
+  cursor: progress; }
+
 .custom-button {
   background: cornflowerblue;
   height: 40px;
@@ -153,13 +167,13 @@ body {
 .nav-main-link {
   font-size: 20px;
   font-weight: 800;
-  color: black;
+  color: white;
   text-transform: capitalize;
   text-decoration: none;
   margin-left: 12px;
   opacity: 80%; }
   .nav-main-link:visited {
-    color: black; }
+    color: white; }
 
 
 /*# sourceMappingURL=frontend.css.map*/

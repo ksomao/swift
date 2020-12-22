@@ -11,3 +11,5 @@ Routes::map('/about', function($params){
 Routes::map('/example', function($params){
 	Routes::load('pages/example.php');
 });
+
+

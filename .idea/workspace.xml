@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ea9f56-cfe0-4785-a501-546d584a348a" name="Default Changelist" comment="" />
+    <list default="true" id="d4ea9f56-cfe0-4785-a501-546d584a348a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/imageParallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/parallax.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/about.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/about.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/base.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -32,18 +55,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\sass\pages" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\views\pages" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\pages" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\config" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js\gsap" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\public" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\pages" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\sass\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +79,9 @@
       <updated>1608387204257</updated>
       <workItem from="1608387205368" duration="16011000" />
       <workItem from="1608461219757" duration="14922000" />
-      <workItem from="1608477453018" duration="358000" />
+      <workItem from="1608477453018" duration="8486000" />
+      <workItem from="1608546184114" duration="14142000" />
+      <workItem from="1608641163546" duration="3229000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,15 @@
+.loader {
+	position: fixed;
+	width: 100vw;
+	height: 200vh;
+	pointer-events: none;
+	background-color: #ff5202;
+	z-index: 50;
+	visibility: hidden;
+	opacity: 1;
+}
+
+.is-transitioning {
+	pointer-events: none;
+	cursor: progress;
+}
