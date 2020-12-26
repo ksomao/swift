@@ -5,25 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ea9f56-cfe0-4785-a501-546d584a348a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/helpers/Picz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/landing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wpspeed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/assets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/timber.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/timber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/customizer-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/customizer-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/imageParallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/parallax.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/gsap/about.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/about.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/gsap/animation.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/animation.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/gsap/index.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/home.gsap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/gsap/loader.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/loader.gsap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/pages/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/about.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/about.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/base.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +42,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="9fa20dd1-1535-4f20-a076-57805071333d" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/upstatement/routes" />
+      <path value="$PROJECT_DIR$/vendor/asm89/twig-cache-extension" />
+      <path value="$PROJECT_DIR$/vendor/timber/timber" />
+      <path value="$PROJECT_DIR$/vendor/altorouter/altorouter" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/digitalnature/php-ref" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1lsYKhZrlXa6tnXPyPa0qCjyRBT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,10 +71,11 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -55,18 +83,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\config" />
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\helpers" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\sass\pages" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\views\pages" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\pages" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js\gsap" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js" />
-      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\public" />
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing" />
       <recent name="D:\wamp64\www\landing\wp-content\themes\landing\pages" />
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\config" />
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\helpers" />
+      <recent name="D:\wamp64\www\landing\wp-content\themes\landing\src\js\gsap" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +109,13 @@
       <workItem from="1608461219757" duration="14922000" />
       <workItem from="1608477453018" duration="8486000" />
       <workItem from="1608546184114" duration="14142000" />
-      <workItem from="1608641163546" duration="3229000" />
+      <workItem from="1608641163546" duration="13290000" />
+      <workItem from="1608711500025" duration="16315000" />
+      <workItem from="1608796320344" duration="2250000" />
+      <workItem from="1608906091624" duration="6077000" />
+      <workItem from="1608914420779" duration="1805000" />
+      <workItem from="1608927074903" duration="30839000" />
+      <workItem from="1609006677013" duration="1214000" />
     </task>
     <servers />
   </component>

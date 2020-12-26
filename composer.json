@@ -1,0 +1,6 @@
+{
+  "require": {
+    "timber/timber": "1.18.2",
+    "digitalnature/php-ref": "dev-master"
+  }
+}

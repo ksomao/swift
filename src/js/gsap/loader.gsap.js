@@ -1,42 +1,18 @@
+import {gsap} from 'gsap/dist/gsap';
+import {loaderAway, loaderInFrom, loaderInTo, loaderReset} from "./animation.gsap";
+
 export const animationLoader = {
   reset: () => {
-    gsap.set('.loader', {
-      scaleX: 0,
-      rotation: 10,
-      xPercent: -5,
-      yPercent: -50,
-      transformOrigin: 'left center',
-      autoAlpha: 1
-    });
+    gsap.set('.loader', loaderReset);
   },
   loaderIn: () => {
     let tl = gsap.timeline({
       onComplete: animationLoader.loaderAway,
     })
-    tl.fromTo('.loader',
-      {
-        rotation: 10,
-        scaleX: 0,
-        xPercent: -5
-      },
-      {
-        duration: 0.8,
-        xPercent: 0,
-        scaleX: 1,
-        rotation: 0,
-        ease: 'power4.inOut',
-        transformOrigin: 'left center'
-      });
+    tl.fromTo('.loader', loaderInFrom, loaderInTo);
   },
   loaderAway: () => {
-    gsap.to('.loader', {
-      duration: 0.8,
-      scaleX: 0,
-      xPercent: 5,
-      rotation: -10,
-      transformOrigin: 'right center',
-      ease: 'power4.inOut'
-    })
+    gsap.to('.loader', loaderAway)
   }
 }
 

@@ -1,7 +1,8 @@
 import barba from "@barba/core";
 import {animationLoader} from "./loader.gsap";
 import {animationAbout} from "./about.gsap";
-import {animationIndex} from "./index.gsap";
+import {animationHome} from "./home.gsap";
+import {delay} from "../helpers";
 
 barba.init({
   transitions: [{
@@ -17,19 +18,19 @@ barba.init({
   views: [{
     namespace: 'about',
     afterEnter(data) {
-      animationAbout.enter().start()
+      delay(animationAbout._enter, 1500)
     },
     beforeEnter(data) {
-      animationAbout.beforeEnter()
+      animationAbout._beforeEnter()
     }
   },
     {
       namespace: 'home',
       afterEnter(data) {
-        animationIndex.enter().start()
+        delay(animationHome._enter, 1500)
       },
       beforeEnter(data) {
-        animationIndex.beforeEnter()
+        animationHome._beforeEnter()
       }
     }
   ]

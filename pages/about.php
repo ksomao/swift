@@ -2,8 +2,8 @@
 /*** Template Name: About Page*/
 
 $context = Timber::context();
-$images = new Image();
-$images->addImage('pic', $images::get('pic.jpg'));;
-$context['images'] = $images->getAll();
+Picz::addImage('pic', Picz::get('pic.jpg'));;
+$context['images'] = Picz::getAll();
+$context['post'] = Gimy::post();
 Timber::render('/about.twig', $context);
 

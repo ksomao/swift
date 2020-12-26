@@ -1,6 +1,8 @@
 .about {
 	margin: 0 auto;
 	max-width: 480px;
+	height: 500vw;
+	overflow: hidden;
 }
 
 .about-wrapper{
@@ -26,6 +28,7 @@
 	font-size: 24px;
 	line-height: 1.2;
 	text-transform: uppercase;
+	margin-left: 25px;
 }
 
 .about-main-text {
@@ -40,4 +43,15 @@
 		color: #303030;
 		margin-bottom: 32px;
 	}
+}
+
+.text-scroll {
+	position: absolute;
+	top: 1200px;
+	left: -150px;
+	margin-top: 20px;
+	font-size: 140px;
+	font-family: 'Eczar', serif;
+	color: black;
+	-webkit-text-stroke: 1px  white;
 }

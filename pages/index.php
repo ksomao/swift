@@ -2,6 +2,6 @@
 /*** Template Name: Home Page*/
 
 $context = Timber::context();
-$context['posts'] = new Timber\PostQuery(['post_type' => 'post']);
+$context['posts'] = Gimy::posts();
 Timber::render( '/index.twig',$context);
 

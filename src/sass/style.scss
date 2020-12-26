@@ -14,19 +14,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+//--FONTS
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap');
-//GLOBAL
+
+//**GLOBAL**//
 @import 'reset';
 @import 'global';
-//VIEWS
+
+//**VIEW**//
 @import 'pages/index';
 @import 'pages/example';
 @import 'pages/about';
 @import 'pages/loader';
-//COMPONENTS
+
+//**COMPONENTS**//
 @import 'components/button';
-//PARTIALS
+
+//**PARTIALS**//
 @import 'partials/menu';
 
 
