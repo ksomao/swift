@@ -1,10 +1,8 @@
 <?php
 class Themer {
-
     public static $assets = [];
     public static $STYLES = 'STYLES';
     public static $SCRIPTS = 'SCRIPTS';
-
 
     public static function themeFiles(){
       return self::getAssets();

@@ -7719,14 +7719,20 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _js_init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/init */ "./src/js/init.js");
+/* harmony import */ var _js_site__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/site */ "./src/js/site.js");
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/style.scss */ "./src/sass/style.scss");
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _js_gsap_barba_gsap_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/gsap/barba.gsap.js */ "./src/js/gsap/barba.gsap.js");
 
 
 
-_js_init__WEBPACK_IMPORTED_MODULE_0__.init.preventBarbaEventOnAdminLink();
+_js_site__WEBPACK_IMPORTED_MODULE_0__.site.preventBarbaEventOnAdminLink();
+
+_js_site__WEBPACK_IMPORTED_MODULE_0__.site._loaded();
+
+_js_site__WEBPACK_IMPORTED_MODULE_0__.site._beforeLeaving();
+
+_js_site__WEBPACK_IMPORTED_MODULE_0__.site.preventRefreshOnLinks();
 
 /***/ }),
 
@@ -7906,12 +7912,10 @@ __webpack_require__.r(__webpack_exports__);
 _barba_core__WEBPACK_IMPORTED_MODULE_0___default().init({
   transitions: [{
     name: 'opacity-transition',
-    leave: function leave(data) {
-      _loader_gsap__WEBPACK_IMPORTED_MODULE_1__.animationLoader.reset();
+    leave: function leave(data) {// animationLoader.reset()
     },
-    enter: function enter(data) {
-      _loader_gsap__WEBPACK_IMPORTED_MODULE_1__.animationLoader.loaderIn();
-      window.scrollTo(0, 0);
+    enter: function enter(data) {// animationLoader.loaderIn()
+      // window.scrollTo(0, 0);
     }
   }],
   views: [{
@@ -8040,55 +8044,96 @@ var delay = function delay(fn, ms) {
 
 /***/ }),
 
-/***/ "./src/js/init.js":
+/***/ "./src/js/site.js":
 /*!************************!*\
-  !*** ./src/js/init.js ***!
+  !*** ./src/js/site.js ***!
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "init": () => /* binding */ init
+/* harmony export */   "site": () => /* binding */ site
 /* harmony export */ });
+/* harmony import */ var _gsap_loader_gsap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gsap/loader.gsap */ "./src/js/gsap/loader.gsap.js");
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-var init = {
-  launchLoader: function launchLoader() {
-    localStorage.setItem('monChat', 'Tom');
+
+var site = {
+  _loaded: function _loaded() {
+    document.addEventListener("DOMContentLoaded", function () {
+      site.preventBarbaEventOnAdminLink();
+      site.displayLoaderFirstTime();
+      console.log('bonjour');
+    });
   },
-  onLeave: function onLeave() {
-    window.onbeforeunload = function () {
-      return "All unsaved data will be lost. Are you sure?";
-    };
+  _beforeLeaving: function _beforeLeaving() {
+    window.addEventListener("beforeunload", function () {
+      site.removeStorage();
+    });
+  },
+  displayLoaderFirstTime: function displayLoaderFirstTime() {
+    var loaderDisplayed = !!parseInt(localStorage.getItem('alreadyDisplayed'));
+    console.log("xxxxxxxxxxx", loaderDisplayed);
+
+    if (!loaderDisplayed) {
+      site.launchLoader();
+    }
+  },
+  launchLoader: function launchLoader() {
+    _gsap_loader_gsap__WEBPACK_IMPORTED_MODULE_0__.animationLoader.loaderIn();
+    _gsap_loader_gsap__WEBPACK_IMPORTED_MODULE_0__.animationLoader.reset();
+    localStorage.setItem('alreadyDisplayed', "1");
+  },
+  removeStorage: function removeStorage() {
+    localStorage.removeItem('alreadyDisplayed');
+    localStorage.clear();
+    console.log('bye bye');
   },
   preventBarbaEventOnAdminLink: function preventBarbaEventOnAdminLink() {
-    document.addEventListener("DOMContentLoaded", function (event) {
-      var links = document.querySelectorAll("#wpadminbar a");
-      var admin = document.getElementById("wpadminbar");
+    var links = document.querySelectorAll("#wpadminbar a");
+    var admin = document.getElementById("wpadminbar");
 
-      if (admin !== null) {
-        admin.setAttribute("data-barba-prevent", "all");
+    if (admin !== null) {
+      admin.setAttribute("data-barba-prevent", "all");
 
-        var _iterator = _createForOfIteratorHelper(links),
-            _step;
+      var _iterator = _createForOfIteratorHelper(links),
+          _step;
 
-        try {
-          for (_iterator.s(); !(_step = _iterator.n()).done;) {
-            var link = _step.value;
-            link.classList.add('no-barba');
-          }
-        } catch (err) {
-          _iterator.e(err);
-        } finally {
-          _iterator.f();
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var link = _step.value;
+          link.classList.add('no-barba');
         }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
       }
-    });
+    }
+  },
+  preventRefreshOnLinks: function preventRefreshOnLinks() {
+    var links = document.querySelectorAll(".nav-main a");
+
+    var _iterator2 = _createForOfIteratorHelper(links),
+        _step2;
+
+    try {
+      for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+        var link = _step2.value;
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+        });
+      }
+    } catch (err) {
+      _iterator2.e(err);
+    } finally {
+      _iterator2.f();
+    }
   }
 };
 

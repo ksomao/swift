@@ -8,11 +8,11 @@ barba.init({
   transitions: [{
     name: 'opacity-transition',
     leave(data) {
-      animationLoader.reset()
+      // animationLoader.reset()
     },
     enter(data) {
-      animationLoader.loaderIn()
-      window.scrollTo(0, 0);
+      // animationLoader.loaderIn()
+      // window.scrollTo(0, 0);
     }
   }],
   views: [{

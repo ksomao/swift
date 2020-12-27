@@ -188,6 +188,12 @@ body {
   opacity: 80%; }
   .nav-main-link:visited {
     color: white; }
+  .nav-main-link:hover {
+    color: #ff5202; }
+
+.active {
+  color: #ff5202;
+  text-decoration: underline; }
 
 
 /*# sourceMappingURL=frontend.css.map*/

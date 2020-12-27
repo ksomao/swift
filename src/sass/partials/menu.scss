@@ -1,10 +1,10 @@
-.nav-main{
+.nav-main {
 	display: flex;
 	margin: 48px auto 56px;
 	width: 200px;
 }
 
-.nav-main-link{
+.nav-main-link {
 	font-size: 20px;
 	font-weight: 800;
 	color: white;
@@ -12,7 +12,17 @@
 	text-decoration: none;
 	margin-left: 12px;
 	opacity: 80%;
-	&:visited{
+
+	&:visited {
 		color: white;
 	}
+
+	&:hover {
+		color: #ff5202;
+	}
+}
+
+.active {
+	color: #ff5202;
+	text-decoration: underline;
 }

@@ -5,43 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ea9f56-cfe0-4785-a501-546d584a348a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/Picz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/landing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wpspeed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/site.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/assets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/timber.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/timber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/Image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/example.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/customizer-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/customizer-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Themer.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Themer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/gsap/about.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/about.gsap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/gsap/animation.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/animation.gsap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/gsap/index.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/home.gsap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/gsap/loader.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/loader.gsap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/pages/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/about.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/about.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/menu.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="9fa20dd1-1535-4f20-a076-57805071333d" />
@@ -115,7 +97,8 @@
       <workItem from="1608906091624" duration="6077000" />
       <workItem from="1608914420779" duration="1805000" />
       <workItem from="1608927074903" duration="30839000" />
-      <workItem from="1609006677013" duration="1214000" />
+      <workItem from="1609006677013" duration="6798000" />
+      <workItem from="1609063559863" duration="1362000" />
     </task>
     <servers />
   </component>
