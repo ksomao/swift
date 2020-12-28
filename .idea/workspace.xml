@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ea9f56-cfe0-4785-a501-546d584a348a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/site.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/Themer.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Themer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Picz.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Picz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/frontend-bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend-bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/gsap/barba.gsap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/menu.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,8 @@
       <workItem from="1608914420779" duration="1805000" />
       <workItem from="1608927074903" duration="30839000" />
       <workItem from="1609006677013" duration="6798000" />
-      <workItem from="1609063559863" duration="1362000" />
+      <workItem from="1609063559863" duration="4334000" />
+      <workItem from="1609148545357" duration="3874000" />
     </task>
     <servers />
   </component>

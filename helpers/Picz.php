@@ -9,7 +9,7 @@ class Picz
         return Picz::$images;
     }
 
-    public static function addImage($key, $filename)
+    public static function add($key, $filename)
     {
 		return Picz::$images[$key] = $filename;
     }
