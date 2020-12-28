@@ -1,7 +1,7 @@
 <?php
 
-define('PROJECT_NAME', 'landing');
-define('THEME_NAME', 'landing');
+define('PROJECT_NAME', 'heat-grow');
+define('THEME_NAME', 'wptheme_starter');
 
 $env_variables = new stdClass();
 $project_root = $_SERVER['DOCUMENT_ROOT'];
