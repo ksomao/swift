@@ -1,2 +1,4 @@
-# Wordpress Theme Stater
-wordpress starter with timber and webpack
+# Swift is a Wordpress theme Starter for dev.
+Swift is a theme boosted with Timber, node_modules, 
+Composer, webpack, gsap, barba.js,... 
+ 
